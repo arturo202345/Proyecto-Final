@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    /*background: #112031;*/
+    background-image: url(https://i.pinimg.com/564x/48/66/d2/4866d29c092d7c0a8e6283af56bf8942.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card {
+    position: relative;
+    margin: 20px;
+    width: 480px;
+    height: 320px;
+    border-radius: 5px;
+    background: let(--i);
+    background-size: cover;
+/*box-shadow: 1px 1px 1px 1px rgba(51, 3, 3, 0.8);*/
+    overflow: hidden 5 3 4;
+}
+.card1 {
+    position: relative;
+    margin: 20px;
+    width: 480px;
+    height: 320px;
+    border-radius: 5px;
+    background: let(--i);
+    background-size: cover;
+/*box-shadow: 1px 1px 1px 1px rgba(51, 3, 3, 0.8);*/
+    overflow: hidden 5 3 4;
+}
+.card div {
+    position: absolute;
+    width: 120%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 5s;
+    margin-top: 2px; 
+    margin-bottom:2px ;
+    margin-left: 50px;
+    }
+.card1 div {
+        position: absolute;
+        width: 80%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backface-visibility: hidden;
+        transition: 5s;
+        margin-top: 2px; 
+        margin-bottom:2px ;
+        margin-left: 50px;
+        }
+
+.card .front {
+    background: #B2DFEF  ;
+    transform: perspective(300px) rotateY(0deg);
+    border-radius: 18px;
+
+}
+.card1 .front {
+    background: #B2DFEF  ;
+    transform: perspective(300px) rotateY(0deg);
+    border-radius: 18px;
+
+}
+
+.card .back {
+    background: #D7BDE2 ;
+    transform: perspective(300px) rotateY(180deg);
+    border-radius: 18px;
+
+}
+.card1 .back {
+    background: #D7BDE2 ;
+    transform: perspective(300px) rotateY(180deg);
+    border-radius: 18px;
+
+}
+
+
+.card:hover .front {
+    transform: perspective(300vh) rotateY(180deg);
+}
+.card1:hover .front {
+    transform: perspective(300vh) rotateY(180deg);
+}
+
+.card:hover .back {
+transform: perspective(300vh) rotateY(360deg);
+}
+.card1:hover .back {
+    transform: perspective(300vh) rotateY(360deg);
+    }
+.i23{
+    font-family: cursive, Helvetica, sans-serif;
+    color:#6F5F90 ;
+    width: 120px;
+    height: 60px;
+    border-radius: 18px;
+    border-color:#6276A5;
+    background-color: #DFE7FC  ;
+    position: relative;
+    top: 200px;
+    right: 950px;    
+}
+.i2{
+    font-family: cursive, Helvetica, sans-serif;
+    color:#6F5F90 ;
+    width: 120px;
+    height: 60px;
+    border-radius: 18px;
+    border-color:#6276A5;
+    background-color: #DFE7FC  ;
+    position: relative;
+    top: 200px;
+    right: 950px;    
+}
+.i24{
+    font-family: cursive, Helvetica, sans-serif;
+    color:#6F5F90 ;
+    width: 120px;
+    height: 60px;
+    border-radius: 18px;
+    border-color:#6276A5;
+    background-color: #DFE7FC  ;
+    position: relative;
+    top: 200px;
+    right: 850px;    
+}
+.i32{
+    font-family: cursive, Helvetica, sans-serif;
+    color:#6F5F90 ;
+    width: 120px;
+    height: 60px;
+    border-radius: 18px;
+    border-color:#6276A5;
+    background-color: #DFE7FC  ;
+    position: relative;
+    top: 200px;
+    right: 700px;    
+}
+.i3{
+    font-family: cursive, Helvetica, sans-serif;
+    color:#6F5F90 ;
+    width: 120px;
+    height: 60px;
+    border-radius: 18px;
+    border-color:#6276A5;
+    background-color: #DFE7FC  ;
+    position: relative;
+    top: 200px;
+    right: 500px;    
+}
+.i34{
+    font-family: cursive, Helvetica, sans-serif;
+    color:#6F5F90 ;
+    width: 120px;
+    height: 60px;
+    border-radius: 18px;
+    border-color:#6276A5;
+    background-color: #DFE7FC  ;
+    position: relative;
+    top: 200px;
+    right: 600px;    
+}
+.i4{
+    font-family: cursive, Helvetica, sans-serif;
+    color:#6F5F90 ;
+    width: 120px;
+    height: 60px;
+    border-radius: 18px;
+    border-color:#6276A5;
+    background-color: #DFE7FC  ;
+    position: relative;
+    top: 200px;
+    right: 400px;    
+}

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 10px;
+    background-image: url(https://i.pinimg.com/564x/8c/12/34/8c1234ff1dd642c30346d93be955d71f.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card {
+    position: relative;
+    margin: 0px;
+    width: 690px;
+    height: 470px;
+    border-radius: 5px;
+    background: let(--i);
+    background-size: cover;
+    /*box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);*/
+    overflow: hidden 5;
+}
+.card div {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 5s;
+    margin-top: 0.5px; 
+    margin-bottom:0.5px ;
+    }
+
+.card .front {
+    background:#D7BDE2;
+    transform: perspective(90vh) rotateY(0deg);
+    border-radius: 10px;
+}
+
+.card .back {
+    background:#F2D7D7 ;
+    transform: perspective(90vh) rotateY(180deg);
+    border-radius: 10px;
+}
+
+
+.card:hover .front {
+    transform: perspective(90vh) rotateY(180deg);
+}
+
+.card:hover .back {
+transform: perspective(90vh) rotateY(360deg);
+}
+
