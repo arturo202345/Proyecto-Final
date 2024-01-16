@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/prueba.css">
+    <title>Document</title>
+</head>
+<body class="body1">
+    <h1 class="ti">Arrastre correctamente</h1>
+    <div class="re">
+        <img src="/img/numeros/02c6bfcf2d3caebca9e00ac7264fe1d1.jpg" width="150px" draggable="true" ondragstart="drag(event)" id="num6">
+        <img src="/img/numeros/153bf936df59b6aa16a2d66498b2eb8a.jpg" width="150px" draggable="true" ondragstart="drag(event)" id="num3">
+        <img src="/img/numeros/28c0f73279d3cc2f72d4afb12ef035dc.jpg" width="150px" draggable="true" ondragstart="drag(event)" id="num1">
+    </div>
+    <div class="re"> 
+        <div class="er" >
+            <div class="box"id="0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h2>TRES</h2>
+        </div>
+        <div class="er">
+            <div class="box"id="1" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+            <h2>UNO</h2>
+        </div>
+        <div class="er">
+            <div class="box" id="2 " ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h2>SEIS</h2>
+        </div>
+    </div>
+    <div id="miVentanaEmergente">
+        <button id="cerrarVentanaBtn" onclick="cerrarVentana()">&times;</button>
+        <p class="ve">¡Bien Hecho!</p>
+        <img class="fe" src="/img/d7d4d15bd1c588061a470c56cbfa818b.png">
+        <a href="./numeros2.html"><button class="bu">Siguiente Nivel</button></a>
+        <a href="../JuegoNumeros.html"><button class="bu13">Ir al Menu</button></a>
+      </div>
+      <div id="miVentanaEmergente1">
+        <button id="cerrarVentanaBtn1" onclick="cerrarVentana1()">&times;</button>
+        <p class="ve">No es correcto siga intentando</p>
+        <img class="fe1" src="/img/125290576-símbolo-incorrecto-o-marca-x.jpg" width="300px">
+        <a href="./numeros.html"><button class="bu3">Volver a Intentar</button></a>
+        <a href="../JuegoNumeros.html"><button class="bu213">Ir al Menu</button></a>
+    </div>
+    <script src="/js/puzzle.js"></script>
+    <script src="/js/audio.js"></script>
+</body>
+</html>
