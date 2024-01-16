@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/564x/a9/fc/b3/a9fcb384ed4c597455e7665385f4275d.jpg);
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    color: #ff0000;
+    text-align: center;
+    font-size: 60px;
+    font-family: bubble bobble;
+    text-shadow: -8px 0 black, 0 1px black, 2px 0 black, 0 -2px black;
+  }
+  ul{
+    font-size: 45px;
+    text-align: inherit;
+    font-family: bubble bobble;
+    
+  }
+  
+  #game, #endgame {
+    border: 5px solid #000000;
+    padding: 10px;
+    width: 450px;
+    margin: auto;
+    background-color: #f589c1;
+    border-radius: 55px;
+  }
+  
+  button {
+    background-color: #d010f1;
+    border: 1px solid #000000;
+    border-radius: 19px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: bubble bobble;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #c3df0c;
+  }
+
+  button:active {
+    background-color: #c7f11f;
+    box-shadow: 0 5px #a5bd3b;
+    transform: translateY(4px);
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+
+  #myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #loader {
+    width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+  }
+
+img{
+  width: 350px;
+    height: 250px;
+    border-radius: 10%;
+    
+}
+

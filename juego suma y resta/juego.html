@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego de suma y resta</title>
+    <link rel="stylesheet" href="./stilito.css">
+</head>
+<body>
+    <html>
+        <body>
+        
+        <h1>Juego de Suma y Resta</h1>
+        
+        <div id="game">
+          <ul><p id="question"></p></ul>
+          <button id="option1" onclick="checkAnswer(this.textContent)"></button>
+          <button id="option2" onclick="checkAnswer(this.textContent)"></button>
+          <button id="option3" onclick="checkAnswer(this.textContent)"></button>
+          <p id="result"></p>
+        </div>
+        
+        <div id="endgame" style="display: none;">
+          <p id="endgameMessage"></p>
+        </div>
+</body>
+<script src="./script.js"></script>
+</html>
