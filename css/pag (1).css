@@ -1,0 +1,40 @@
+
+
+header {
+    background-color: #fff27b;
+    width: 180px;
+    color: rgb(189, 185, 185);
+    text-align: center;
+    padding: 0.50em;
+}
+
+
+
+footer {
+    background-color: #b2f1b4;
+    color: rgb(235, 227, 227);
+    text-align: center;
+    padding: 0,50em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p{
+    color: black;
+}
+h1{
+    color: black;
+}
+
+body{
+    max-width: 10px;
+   max-height: 10px;
+
+}
+
+img.buho{
+    width: 300px ;
+    margin-top: -700px;
+}
+

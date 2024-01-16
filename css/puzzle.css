@@ -1,0 +1,88 @@
+.body1{
+    max-width: 10px;
+    max-height: 10px;
+    background-image: url(/img/72955124-matemáticas-de-fondo-sin-fisuras-diferentes-números-en-un-patrón-aleatorio-colorido-patrón.jpg);
+}
+.e{
+    background:#8ec8d8;
+    width: 1507px;
+    height: 50px;
+    position: relative;
+    bottom: 22px;
+    right: 20px;
+    box-shadow: 0 4px 10px #8ec8d8;
+    
+}
+a{
+    text-decoration:none
+}
+.a{
+    background:#84A1C4;
+    text-align: center;
+    width:70px;
+    font-size: 12px;
+    font-family: arial;
+    position: relative;
+    bottom: 77px;
+    border-radius: 10px;
+}
+#num3{
+    position: relative;
+    left: 400px;
+    bottom: 40px;
+}
+#num1{
+    position: relative;
+    left: 650px;
+    bottom: 240px;
+}
+#num6{
+    position: relative;
+    left: 890px;
+    bottom: 450px;
+}
+.ti{
+    width: 400px;
+    position: relative;
+    bottom: 50px;
+    left: 580px;    
+}
+.box1{
+    width: 140px;
+    height: 195px;
+   
+    bottom: 357px;
+    left: 400px;
+    border:5px solid #000
+}
+.box2{
+    width: 140px;
+    height: 195px;
+    
+    bottom: 643px;
+    left: 650px;
+    border:5px solid #000
+}
+.box3{
+    width: 140px;
+    height: 195px;
+    
+    bottom: 926px;
+    left: 890px;
+    border:5px solid #000
+}
+.er1{
+    position: relative;
+    bottom: 357px;
+    left: 440px;
+}
+.er2{
+    position: relative;
+    bottom: 642px;
+    left: 690px;
+}
+.er3{
+    position: relative;
+    bottom: 926px;
+    left: 930px;
+}

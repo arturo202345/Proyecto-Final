@@ -1,0 +1,113 @@
+/*.c{
+    float: left;
+    margin: 5px;
+    margin-top: 5%;
+    width: 180px;
+ }*/
+ .h1p{
+    font-size: 30px;
+    background: #8ec8d8;
+    width: 550px;
+    border: 5px solid #3498db;
+    border-radius: 20px;
+ }
+ .body2{
+
+    background-image: url(https://i.pinimg.com/564x/72/46/60/7246608055c041f981ac5276039fc243.jpg);
+}
+#q{
+    border: 5px solid #3498db;
+}
+.q{
+    font-size: 30px;
+    border: 5px solid #3498db;
+    width: 170px;
+    height: 40px;
+}
+/*.boton{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+    background: #8ec8d8;
+    border: 5px solid #3498db;
+}*/
+/*.boton:hover{
+    transform: scale(1.1);
+}*/
+/*#resp{
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    border: 5px solid #3498db;
+    background: #8ec8d8;
+    display: inline-block;
+}*/
+.vi{
+    position: relative;
+    top: 300px;
+    right: 800px;;
+}
+.ve{
+    position: relative;
+    bottom: 70px;
+}
+h1{
+    color: white;
+    background-color: rgb(0, 150, 191);
+    border-radius: 15px;
+    text-align: center;
+    border-style: outset;
+
+}
+.c{
+   float: left;
+   margin-top: 5%;
+   width: 20%;
+}
+.boton {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #2d49d6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.9s ease-in-out;
+   
+}
+.boton:hover {
+    background-color: #21b0d7;
+    padding: 10px 20px;}
+.caja{
+    background-color: #21b0d7;
+}
+.botones{
+    background-color: #21b0d7;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+#resp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    color:white;
+    font-size: 16px;
+    background-color: #21b0d7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+}
+body{
+    background-image: url(https://i.pinimg.com/564x/72/46/60/7246608055c041f981ac5276039fc243.jpg);
+}
+
